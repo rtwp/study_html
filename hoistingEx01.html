@@ -1,0 +1,29 @@
+<script>
+    // Ex01
+    console.log(x === underfined); //logs "true"
+    var x =3;
+    /*
+    var x;
+    console.log(x === underfined);
+    x = 3;
+    */
+</script>
+<!-- <script></script> -->
+    // Ex02
+    //underfined 값 반환
+    var myvar = "my value";
+    
+    (function() {
+        console.log(myvar); // underfined
+        myvar = "local value";
+    })();
+    /*
+    var myvar = "my value";
+
+    (function() {
+     var myvar;
+      console.log(myvar); // undefined
+     myvar = "local value";
+    })();
+    */
+</script>
